@@ -1,6 +1,6 @@
 {
   "name": "parcel-reporter-sitemap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A parcel plugin for creating (very) basic sitemaps.",
   "main": "index.js",
   "keywords": [
