@@ -1,5 +1,7 @@
 # Parcel (v2) Sitemap Plugin
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/fgribreau/parcel-reporter-sitemap/ci.yaml) ![npm](https://img.shields.io/npm/dm/parcel-reporter-sitemap) [![Slack](https://img.shields.io/badge/Slack-Join%20our%20tech%20community-17202A?logo=slack)](https://join.slack.com/t/fgribreau/shared_invite/zt-edpjwt2t-Zh39mDUMNQ0QOr9qOj~jrg)
+
 A [parcel](https://github.com/parcel-bundler/parcel) plugin for creating (very) basic sitemaps.
 
 ### Disclaimer:
