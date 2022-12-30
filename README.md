@@ -53,3 +53,7 @@ You're interested in contributing? Awesome! Fork, make change, commit and create
 ## License
 
 MIT License
+
+## Previous work
+
+- https://github.com/tom-julux/parcel-plugin-sitemap
