@@ -2,7 +2,7 @@
   "name": "parcel-reporter-sitemap",
   "version": "1.0.1",
   "description": "A parcel plugin for creating (very) basic sitemaps.",
-  "main": "index.js",
+  "main": "src/index.js",
   "keywords": [
     "parcel",
     "parcel2",
@@ -11,7 +11,7 @@
     "sitemap"
   ],
   "scripts": {
-    "test": ""
+    "test": "ava --timeout 30s"
   },
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (https://fgribreau.com/)",
   "license": "MIT",
@@ -27,6 +27,7 @@
     "parcel": "^2.8.2"
   },
   "devDependencies": {
+    "ava": "^5.1.0",
     "npm-release": "^1.0.0"
   }
 }

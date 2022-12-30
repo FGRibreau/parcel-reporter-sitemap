@@ -1,0 +1,13 @@
+{
+  "name": "test_1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rm -rf dist/sitemap.xml .parcel-cache && parcel build --public-url='https://public.url.tld' src/*.ejs"
+  },
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (https://fgribreau.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-transformer-ejs": "^1.0.1"
+  }
+}

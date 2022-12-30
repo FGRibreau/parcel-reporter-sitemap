@@ -47,8 +47,7 @@ PARCEL_SITEMAP_SITE_URL="https://my.website.tld/"
 
 ## Contribute
 
-You're interested in contributing? Awesome! Fork, make change, commit and create pull request. I'll do my best to merge changes!
-
+You're interested in [contributing](./CONTRIBUTING.md)? Awesome! Fork, make change, commit and create pull request. I'll do my best to merge changes!
 
 ## License
 

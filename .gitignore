@@ -2,6 +2,8 @@
 node_modules
 npm-*.log*
 compare.js
+.parcel-cache
+examples/**/dist/**
 
 
 vendor/
