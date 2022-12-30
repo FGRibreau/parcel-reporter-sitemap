@@ -25,5 +25,8 @@
     "@parcel/packager-html": "^2.8.2",
     "@parcel/plugin": "^2.8.2",
     "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "npm-release": "^1.0.0"
   }
 }
