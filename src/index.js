@@ -5,7 +5,10 @@ const fs = require("fs");
 
 const isIndexable = (bundle) => !bundle.displayName.startsWith('_') && bundle.displayName.endsWith('.html');
 
-const normalizePath = (p) => p.replace(/[\\/]+/g, "/");
+const normalizePath = (p) => {
+    const encodedArray = p.split("://");
+    return encodedArray.length > 1 ? encodedArray[0] + '://' + encodedArray[1].replace(/[\\/]+/g, "/") : p.replace(/[\\/]+/g, "/");
+}
 
 const writeSiteMap = ([distDir, {siteURL, bundles, sitemapPath}]) => {
     const bundleToLocation = (bundle) => {
