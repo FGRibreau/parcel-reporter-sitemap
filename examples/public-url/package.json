@@ -9,5 +9,8 @@
   "license": "MIT",
   "devDependencies": {
     "parcel-transformer-ejs": "^1.0.1"
+  },
+  "dependencies": {
+    "parcel-reporter-sitemap": "file:../.."
   }
 }
