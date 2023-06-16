@@ -24,7 +24,7 @@
   "dependencies": {
     "@parcel/packager-html": "^2.8.2",
     "@parcel/plugin": "^2.8.2",
-    "parcel": "^2.8.2"
+    "parcel": "2.9.*"
   },
   "devDependencies": {
     "ava": "^5.1.0",
