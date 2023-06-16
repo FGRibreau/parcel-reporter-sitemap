@@ -16,7 +16,7 @@
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (https://fgribreau.com/)",
   "license": "MIT",
   "engines": {
-    "parcel": "2.8.x"
+    "parcel": "2.*.*"
   },
   "volta": {
     "node": "16.19.0"
